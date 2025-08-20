@@ -86,14 +86,34 @@ public class ProjectSystemUtility {
                 break;
             }
             case 2:{
+                //Pedimos los datos para calcular los pares u impares
                 int num1;
                 System.out.println("Digite un numero para calcular si es par o impar: ");
                 num1=Leer.nextInt();
+                //mediante un if hacemos la funcion de si num1%2 es 0, es par.
                 if(num1%2==0){
                     System.out.println("Es Par");
                 }else{
                     System.out.println("Es Impar");
                 }               
+                break;
+            }
+            case 3:{
+                //Pedimos los datos de los dos numeros
+                int num1,num2;
+                System.out.println("Digite un numero: ");
+                num1=Leer.nextInt();
+                
+                System.out.println("Digite un numero: ");
+                num2=Leer.nextInt();
+                //Realizaremos mediante un if-else para saber cual de los dos numeros es mayor, igual u menor
+                if (num1>num2){
+                    System.out.println("El numero "+num1+" es mayor a el numero "+num2);
+                }else if(num1==num2){
+                    System.out.println("Ambos numeros son iguales");
+                }else{
+                    System.out.println("El numero "+num2+" es mayor a el numero"+num1);
+                }
                 break;
             }
             
