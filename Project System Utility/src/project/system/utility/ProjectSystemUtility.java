@@ -58,7 +58,32 @@ public class ProjectSystemUtility {
                         System.out.println("El resultado de la resta es: "+resta);
                         break;
                     }
+                    case 3:{
+                        //Variables para digitar los datos y realizar multiplicaciones
+                        int num1, num2, mul;
+                        System.out.println("Digite un numero: ");
+                        num1=Leer.nextInt();
+                        System.out.println("Digite un numero: ");
+                        num2=Leer.nextInt();
+                        //Procede a realizar la multiplicacion
+                        mul=num1*num2;
+                        System.out.println("EL resultado de la multiplicacion es: "+mul);
+                        break;
+                    }
+                    case 4:{
+                        //Variables para digitar los datos y realizar divisiones
+                        int num1, num2, div;
+                        System.out.println("Digite un numero: ");
+                        num1=Leer.nextInt();
+                        System.out.println("Digite un numero: ");
+                        num2=Leer.nextInt();
+                        //Procede a realizar la division
+                        div=num1/num2;
+                        System.out.println("El resultado de la division es: "+div);
+                        break;
+                    }
                 }
+                break;
             }
         }
         
