@@ -23,7 +23,7 @@ public class ProjectSystemUtility {
     public static void main(String[] args) {
         Scanner Leer = new Scanner(System.in);
         int option1;
-        System.out.println("Bienvenido al SIstema de Utilidades\n Seleccione la opcion con la que desee Trabajar:\n"
+        System.out.println("Bienvenido al Systema de Utilidades\n Seleccione la opcion con la que desee Trabajar:\n"
                 + "1.Calculadora Basica\n2.Verificar si un numero es par o impar\n3.Determinar el mayor, menor, o igualdad entre dos numeros\n"
                 + "4.Calcular la edad para acceder\n5.Salir: \n");
         option1 = Leer.nextInt();
@@ -85,6 +85,18 @@ public class ProjectSystemUtility {
                 }
                 break;
             }
+            case 2:{
+                int num1;
+                System.out.println("Digite un numero para calcular si es par o impar: ");
+                num1=Leer.nextInt();
+                if(num1%2==0){
+                    System.out.println("Es Par");
+                }else{
+                    System.out.println("Es Impar");
+                }               
+                break;
+            }
+            
         }
         
         
