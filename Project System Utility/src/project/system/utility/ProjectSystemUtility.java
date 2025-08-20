@@ -116,7 +116,19 @@ public class ProjectSystemUtility {
                 }
                 break;
             }
-            
+            case 4:{
+                //Pedimos los datos de la edad del usuario
+                int age;
+                System.out.println("Digite su edad para acceder: ");
+                age = Leer.nextInt();
+                //Si es mayor aprobamos al usuario, y si es menor denegamos.
+                if(age>=18){
+                    System.out.println("Aprobado");
+                }else{
+                    System.out.println("Denegado");
+                }
+                break;
+            }
         }
         
         
